@@ -18,7 +18,7 @@ public class configuracaoBancodeDados {
         dataSource.setDriverClassName("org.postgresql.Driver"); // configurações de acesso
         dataSource.setUrl("jdbc:postgresql://localhost:5432/loja");
         dataSource.setUsername("postgres");
-        dataSource.setPassword("1234");
+        dataSource.setPassword("DB_PASSWORD");
         return dataSource;
     }
 
